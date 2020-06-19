@@ -1,0 +1,25 @@
+Arrays are indexed collection of fixed number of homogenous data elements
+The main advantage of arrays is that we can represent multiple values with a single variable
+So the readability of the code is enhanced
+
+Limitatins of arrays:
+
+1. They are fixed and not expandable; so to use an array it is cumpolsary to know the size in advance which is not
+   possible always
+
+2. They contain homogenouse data; but this can be solved using array of objects
+
+3. They don't have underlying standard data structures so no ready made methods
+  All the tasks of the array like inserting, searching and so on is done but the
+  programmer and the complexity of the program is high.
+  Collections on the other hand contains usefull methods such as contains
+
+
+  Collections
+  To overcome the above limitations of arrays we should go for collections
+  1. Growable in nature; based on our requiremnts we can increase or decrease the size of a collection
+  2. Both Homegeneous and Hetrogeneous objects
+  3. everyt collections is implemented underlying data structure with readymade methods. Being a programmer, we 
+  have to use this method and we are not responsible to provide implementation
+
+

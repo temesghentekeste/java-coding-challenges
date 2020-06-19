@@ -14,7 +14,7 @@ public class DuplicateString {
 		
 		for (String word : arrSentence) {
 			word = word.toLowerCase();
-			word = word.replaceAll("[-+^]*", ""); 
+			// word = word.replaceAll("[-+^]*", ""); 
 			word = word.replace(",", "");
 			word = word.replace(".", "");
 			if(wordCountMap.containsKey(word)) {
