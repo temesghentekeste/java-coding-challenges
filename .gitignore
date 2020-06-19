@@ -3,4 +3,4 @@
 .gitignore.swo
 .gitignore.swo
 ./*.class
-
+./**/*.class
