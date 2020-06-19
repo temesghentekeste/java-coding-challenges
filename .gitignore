@@ -4,4 +4,5 @@
 .gitignore.swo
 ./*.class
 ./**/*.class
-./notes/
+./notes/**
+test.java
