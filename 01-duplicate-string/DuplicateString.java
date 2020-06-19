@@ -1,10 +1,9 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class DuplicateWords {
+public class DuplicateString {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String sentence = "He is a very brave man even more brave than he thinks he is.";
 		duplicateWord(sentence);
 	}
