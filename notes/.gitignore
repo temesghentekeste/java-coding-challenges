@@ -4,4 +4,4 @@
 .gitignore.swo
 ./*.class
 ./**/*.class
-notes/*
+./notes/
