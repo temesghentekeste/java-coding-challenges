@@ -10,7 +10,7 @@ public class IsBalanced {
 
   public static void main(String[] args) {
 
-    System.out.print("Enter any string: using {, }, (, ), or []  ");
+    System.out.print("Enter any string: using {, }, (, ), or []:  ");
     Scanner input = new Scanner(System.in);
     String expression = input.next();
 
