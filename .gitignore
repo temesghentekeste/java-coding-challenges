@@ -3,6 +3,8 @@
 .gitignore.swo
 .gitignore.swo
 ./*.class
-./**/*.class
-./notes/**
+**/*.class
+notes/
 test.java
+node_modules/
+.vscode/
