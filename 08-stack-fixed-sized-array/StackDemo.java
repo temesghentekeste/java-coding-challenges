@@ -18,6 +18,7 @@ public class StackDemo {
       System.out.println("Stack is empty");
     }else{
       data = stack[--top];
+      stack[top] = 0;
     }
     return data;
   }
