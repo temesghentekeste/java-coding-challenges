@@ -119,4 +119,29 @@ public class LinkedList<E>{
     tail = previous;
     return current.data;
   }
+
+  public void addAt(int index, E obj){
+    if (index < 0 || index > currentSize - 1) return ;
+    if (index == 0) {
+      addFirst(obj);
+      return;
+    }
+    Node<E> current = head;
+    int i = 0;
+    while( i < index - 1){
+      current = current.next;
+      i++;
+    }
+    
+    Node<E> node = new Node<E>(obj);
+    Node<E> next = current.next;
+    current.next = node;
+    node.next = next;
+    currentSize++;
+  }
+
+  public int getCurrentSize() {
+    return currentSize;
+  }
+  
 }

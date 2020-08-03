@@ -28,6 +28,11 @@ public class Main {
     System.out.println(list.removeLast());
     System.out.println("Printing after removal");
     list.printList();
+
+    System.out.println("Insertin at a given position");
+    list.addAt(0, 4);
+    list.addAt(4,40);
+    list.printList();
     
   }
 }
